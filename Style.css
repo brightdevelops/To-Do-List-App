@@ -1,0 +1,81 @@
+#container{
+    display: flex;
+    width: 500px;
+    height: 900px;
+    border: 2px solid red;
+    flex-direction: column;
+}
+
+#header{
+    border: 2px solid red;
+    width: 100%; height: 100px;
+    display: flex;
+    justify-content: space-around;
+     
+}
+#body{
+    border: 2px solid black;
+    width: 100%; height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#addbox{
+  border: 2px solid red;
+  width: 100%; height: 100px;
+  display: flex;
+}
+#time{
+    /*border: 2px solid black;*/
+    width: fit-content; height: fit-content;
+    margin-top: 10px;
+     
+}
+
+#title{
+    /* border: 2px solid black; */
+    width: fit-content; height: fit-content;
+}
+
+#day{
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+}
+
+#currentDate{
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+#title{
+    font-size: 2em;
+    margin-top:20px;
+    font-family :cursive;
+}
+
+#all{
+    border: 2px solid black;
+    width: 99%; height: 80px;
+    border-radius: 10px;
+}
+#personal{
+    border: 2px solid black;
+    width: 99%; height: 80px;
+    border-radius: 10px;
+}
+#work{
+    border: 2px solid black;
+    width: 99%; height: 80px;
+    border-radius:10px;
+}
+#wishlist{
+    border: 2px solid black;
+    width: 99%; height: 80px;
+    border-radius: 10px;
+}
+#birthday{
+    border: 2px solid black;
+    width: 99%; height: 80px;
+    border-radius: 10px;
+}
