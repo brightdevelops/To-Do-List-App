@@ -87,16 +87,38 @@
 }
 
 #addButton{
-    border: 2px solid red;
-    width: 60px; height: 60px;
+    /* border: 2px solid red; */
+    width: 70px; height: 70px;
     border-radius: 50%;
     margin-top: 13px;
-    background-image: url("https://cdn-icons-png.flaticon.com/128/10015/10015328.png");
+    padding: -10px;
+    background-image: url("add.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    cursor: pointer;
+    background-color: rgb(79, 181, 79);
+    outline: none;
+    box-shadow: 0 0 20px rgb(79, 181, 79); /*Inital glow*/
+    animation:glow 1.5s infinite ease-in-out;
+
 }
 
+@keyframes glow{
+    0%{
+        box-shadow:0 0 5px rgba(40, 167, 69, 0.6), 0 0 10px rgba(40, 167, 69, 0.4);
+
+    }
+
+    50%{
+        box-shadow: 0 0 20px rgba(40, 167, 69, 0.8), 0 0 30px rgba(40, 167, 69, 0.6);
+
+    }
+
+    100%{
+        box-shaow: 0 0 50px rgba(40, 167, 69, 0.8), 0 0 10px rgba(40, 167, 69, 0.4);
+    }
+}
 .all, .personal, .birthday, .work, .wishlist {
  color: black;
  /* border:  1px solid red; */
